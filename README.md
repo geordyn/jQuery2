@@ -37,7 +37,7 @@ Now that we've made our basic files, we want to get them all hooked together in 
 #Step 2
 ###Time For jQuery
 
-Now that we have our environment set up and our markup written, it's time to use some jQuery. 
+Now that we have our environment set up and our markup written, it's time to use some jQuery.
 
 The first thing we want to do is go into our scripts.js file and create our document ready function:
 
@@ -363,7 +363,7 @@ $(document).on('click', '#archived', function (e) {
 
 
 *A note on archiving*
-A lot of times when writing software we don't necessarily want to delete things all out. Sometimes a user will accidently delete something, and if we are actually obliterating things then that deleted thing is now gone forever. Doing what is called a "soft delete" is often a good thing to do.
+A lot of times when writing software we don't necessarily want to delete things all out. Sometimes a user will accidentaly delete something, and if we are actually obliterating things then that deleted thing is now gone forever. Doing what is called a "soft delete" is often a good thing to do.
 
 Think of our archived ID like a soft delete. We could make it disappear to the user, but if there is a case where they made a mistake it's still accessible.
 
